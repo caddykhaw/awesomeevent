@@ -1,0 +1,55 @@
+# AwesomeEvent Project Rules
+
+## Project Structure
+- Use a monorepo structure with clear separation of concerns
+- Frontend code is located in `/frontend` directory
+- Backend code is located in `/backend` directory
+- Shared code is located in `/shared` directory
+- Use kebab-case for file names
+- Use PascalCase for component names
+- Use camelCase for variables and functions
+
+## Code Style
+- TypeScript is used throughout the project
+- Follow ESLint and Prettier configurations
+- Use functional components with hooks in React
+- Prefer async/await over promise chains
+- Use named exports over default exports
+- Implement proper error handling
+
+## Component Patterns
+- Use atomic design principles (atoms, molecules, organisms)
+- Implement container/presentational pattern where appropriate
+- Use custom hooks for shared logic
+- Implement proper prop validation
+- Use React Context for theme and global state
+
+## Testing Requirements
+- Write tests for all business logic
+- Use TDD approach when possible
+- Aim for high test coverage on critical paths
+- Mock external dependencies
+
+## Git Workflow
+- Use feature branches
+- Follow conventional commits format
+- Require pull request reviews
+- Keep commits small and focused
+
+## Documentation
+- Document all API endpoints
+- Use JSDoc for function documentation
+- Keep memory bank updated with changes
+- Document major architectural decisions
+
+## Performance Considerations
+- Implement code splitting
+- Optimize images and assets
+- Use memoization for expensive calculations
+- Monitor and optimize bundle size
+
+## Accessibility
+- Use semantic HTML
+- Implement keyboard navigation
+- Follow ARIA best practices
+- Ensure sufficient color contrast 

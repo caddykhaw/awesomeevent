@@ -1,0 +1,16 @@
+{
+  "name": "@awesomeevent/types",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+} 
